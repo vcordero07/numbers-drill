@@ -19,3 +19,15 @@ function fahrToCels(fahrTemp) {
   var c = (fahrTemp - 32) * 5/9;
   return c;
 }
+
+
+//Third numbers drill
+function isDivisible(divisee, divisor) {
+   // your code here
+  var doDiv = divisee / divisor;
+  console.log(doDiv);
+  console.log(Number.isInteger(doDiv));
+  return Number.isInteger(doDiv);
+}
+isDivisible(18, 3);
+isDivisible(15, 4);
